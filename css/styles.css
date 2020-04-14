@@ -1,0 +1,91 @@
+
+html{
+    box-sizing: border-box;
+}
+*, 
+*::before,
+ *::after{
+    box-sizing: inherit;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+   
+}
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    vertical-align: middle;
+    
+    
+}
+.main-menu li:not(:last-child) {
+ margin-right: 115px;
+}
+.main-menu-item{
+   display: inline-block;
+ 
+}
+.main-menu-link{
+    display: block;
+    text-align: center;
+}
+.main-menu a {
+    color:#626262;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;
+}
+.main-menu a:hover, 
+.main-menu a:focus {
+color:#03a9f4;
+}
+.main-nav {
+    padding: 95px;
+}
+
+
+.content{
+    
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+   
+}
+body {
+    font-family: 'Playfair Display', 'Arial', serif;
+    color:#626262 ;
+    font-size: 14px;
+    line-height: 24px;
+}
+.title{
+   
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.subtitle {
+    font-family: 'Ubuntu','Arial', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    line-height: 17px;
+}
+.visually-hidden:not(:focus):not(:active), input[type="checkbox"].visually-hidden, input[type="radio"].visually-hidden  {
+    position: absolute;
+  
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+  
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+ 
