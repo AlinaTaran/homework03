@@ -7,10 +7,28 @@ html{
  *::after{
     box-sizing: inherit;
 }
+body {
+    font-family: 'Playfair Display', 'Arial', serif;
+    color:#626262 ;
+    font-size: 14px;
+    line-height: 24px;
+}
+.title{
+   
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.subtitle {
+    font-family: 'Ubuntu','Arial', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    line-height: 17px;
+}
 .container{
     width: 900px;
     margin: 0 auto;
-   
+   font-size: 0;
 }
 .main-menu {
     margin: 0;
@@ -22,7 +40,7 @@ html{
     
 }
 .main-menu li:not(:last-child) {
- margin-right: 115px;
+ margin-right: 114px;
 }
 .main-menu-item{
    display: inline-block;
@@ -55,23 +73,8 @@ color:#03a9f4;
     margin-right: 60px;
    
 }
-body {
-    font-family: 'Playfair Display', 'Arial', serif;
-    color:#626262 ;
-    font-size: 14px;
-    line-height: 24px;
-}
-.title{
-   
-    font-size: 30px;
-    line-height: 36px;
-}
-
-.subtitle {
-    font-family: 'Ubuntu','Arial', sans-serif;
-    color: #b4ad9e;
-    font-size: 14px;
-    line-height: 17px;
+.content:nth-child(2n){
+margin: 0;
 }
 .visually-hidden:not(:focus):not(:active), input[type="checkbox"].visually-hidden, input[type="radio"].visually-hidden  {
     position: absolute;
