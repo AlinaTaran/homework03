@@ -93,7 +93,7 @@ section {
 
 .content p {
   font-size: 14px;
-  margin-bottom: 130px;
+ 
 }
 
 section:nth-last-of-type(-n + 2) {
